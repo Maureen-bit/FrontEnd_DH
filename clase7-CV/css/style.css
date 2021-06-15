@@ -1,0 +1,69 @@
+/*General Styles*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    background: #C4C4C4;
+    color: #005677;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+p {
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #005677;
+    text-align: center;
+}
+
+/*Header*/
+.divHeader{
+    height: 50px;
+}
+
+.batmanLogo{
+    text-align: center;
+}
+
+/*Main styles*/
+
+.mainContent{
+    justify-content: center;
+    width: 1000px;
+}
+
+/*Footer*/
+
+.footerText{
+    font-style: normal;
+    color: white;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    vertical-align: 4px;
+}
+
+.imgIcos{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.divFooter{
+    height: 150px;
+}
