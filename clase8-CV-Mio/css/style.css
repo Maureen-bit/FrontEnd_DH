@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Snippet&family=Viaoda+Libre&display=swap');
+/*General Styles*/
+body{
+    font-family: 'Snippet', sans-serif;
+    background-color: rgb(233, 174, 233);
+}
+
+.aboutMe>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: 'Viaoda Libre', cursive;
+    background: #8a4fa5;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+}
+
+p {
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.links {
+    color: white;
+    width: 100px;
+    background-color: #8a4fa5;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    justify-content: center;
+    width: 1000px;
+}
+
+footer{
+    background-color: #8a4fa5;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/*Header*/
+.divHeader{
+    height: 20px;
+}
+
+.fotoContainer{
+    text-align: center;
+}
+
+.fotoCV{
+    height: 150px;
+    width: 150px;
+}
+
+.aboutMe{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*Main styles*/
+
+.mainContent{
+    justify-content: center;
+    width: 1000px;
+}
+
+/*Footer*/
+
+.footerText{
+    font-style: normal;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    vertical-align: 4px;
+}
+
+.listHobbies{
+    margin-left: 60px;
+}
+
+.principalPage>a {
+    padding: 10px;
+    height: 50px;
+}
+
+i {
+    color: white;
+    height: 20px;
+    width: 20px;
+    font-weight: 200;
+}
+
+.divFooter{
+    height: 60px;
+}
+
