@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    box-sizing: border-box;
+    background-color: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.container {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+
+
+.logoPizza{
+    margin-left: 20px;
+}
+
+.containerOne {
+    position: relative;
+    background-image: url('../img/delivery.png');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.links {
+display: flex;
+align-items: center;
+margin-right: 20px;
+}
+
+.tituloCont1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: red;
+}
+
+.tituloCont2 {
+    position: absolute;
+    top: 20px;
+    right: 35%;
+    color: red;
+}
+
+span {
+    color: white;
+}
+
+.containerTwo {
+    position: relative;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.subtitulo{
+    margin-bottom: 20px;
+}
+
+.subContainerTwo {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.list{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list p {
+    margin-top: 10px;
+}
+
+.logoPizzaFooter{
+    margin-right: 20px;
+}
+
+ol {
+    font-weight: bold;
+}
