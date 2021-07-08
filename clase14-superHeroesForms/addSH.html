@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Añadir Súper Heroe</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <header>
+        <div class="nav" >
+            <p class="navOne"> <strong> 20% de descuento en todos los productos!</strong></p>
+            <div class="navTwoParent">
+                <i class="fas fa-home"></i>
+                <img src="./images/logoTienda.png" alt="Logo tienda">
+                <H1 class="navTwo">Tienda Maureen</H1>
+            </div>
+            <ul type="none">
+                <li> <a href="./register.html">Registrarme</a> </li>
+                <li> <a href="./login.html">Ingresar</a> </li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <main>
+            <section>
+                <div class="container">
+                <h1 class="titlesAdd">Añadí tu super!</h1>
+                <h2 class="titlesAdd subtitleAdd">Agregá tu personaje favorito completando las opciones.</h2>
+                <form class="formAdd">
+                    <div class="childAdd">
+                        <div class="columns">
+                            <label for="name">*Nombre</label>
+                            <input class="inputsAdd" type="text" name="name" id="name" placeholder="Nombre y Apellido" maxlength="60" required>
+                            <label for="name">Fecha</label>
+                            <input class="inputsAdd" type="date" name="email" id="email" placeholder="Correo Electrónico" required>    
+                            <textarea class="inputsAdd" rows="10"></textarea>
+                        </div>
+                        <div class="columns">
+                            <label for="name">*Especie</label>
+                            <select class="inputsAdd" placeholder="País" required>
+                                <option value="co">Colombia</option>
+                                <option value="ar">Argentina</option>
+                                <option value="es">Español</option>
+                            </select>
+                            <label for="file">Agregar Foto</label>
+                            <input class="inputsAdd fileInput" type="file" name="file" id="file" placeholder="Seleccionar foto">
+                            <fieldset class="groups">
+                                <legend>Poderes</legend>
+                                <label for="fly">Volar</label>
+                                <input class="inputOption"  type="checkbox" name="fly" id="fly">
+                                
+                                <label for="superintelligence">superinteligencia</label>
+                                <input class="inputOption" type="checkbox" name="superintelligence" id="superintelligence">
+
+                                <label for="laser">Vista de rayo láser</label>
+                                <input class="inputOption"  type="checkbox" name="laser" id="laser" value="laser">
+
+                                <label for="fatWallet">Billetera gorda</label>
+                                <input class="inputOption"  type="checkbox" name="fatWallet" id="fatWallet">
+                            </fieldset>
+
+                            <fieldset class="groups">
+                                <legend>Tipo de personaje</legend>
+                                <label for="heroes">Héroe / Heroína</label>
+                                <input class="inputOption" type="radio" name="character" id="heroes" value="heroes">
+                                <label for="villains">Villano / Villana</label>
+                                <input class="inputOption" type="radio" name="character" id="villains" value="villains">
+                            </fieldset>
+                        </div>
+                    </div>
+                    <button class="addButton" type="submit">Añadir</button>
+                </form>
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <span>Todos los derechos reservados a FRONT END 1</span>
+        <span> <a href="./contact.html">Contáctanos</a> </span>
+    </footer>
+</html>

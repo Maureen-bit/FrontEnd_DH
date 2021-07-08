@@ -277,3 +277,81 @@ textarea{
     background-color: #1CD1B0;
     color: inherit;
 }
+
+/*Añadir super héroe*/
+
+.container {
+    position: absolute;
+    top: 20%;
+    background-color: #00669F;
+    width: 60%;
+    height: 600px;
+    color: white;
+    border-radius: 2rem;
+}
+
+.formAdd{
+    width: 100%;
+}
+
+.childAdd {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
+
+.inputsAdd{
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+.groups{
+    display: flex;
+    flex-direction: column;
+    border-width: 0;
+}
+
+.inputOption{
+    height: unset;
+    margin-bottom: 0;
+}
+
+.fileInput{
+    border: 0;
+    height: 20px;
+}
+
+.addButton{
+    position: relative;
+    left: 35%;
+    background-color: #1CD1B0;
+    border: 0;
+    border-radius: 1.5rem;
+    width: 30%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.titlesAdd{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitleAdd{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.inputOption::before{
+    margin-right: 0.5rem;
+    content: "hola";
+}
