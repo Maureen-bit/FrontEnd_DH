@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Petshop</title>
+</head>
+<body>
+    <header>
+        <div id="upperBar">
+            <span id="upperText">Grandes ofertas en comederos</span>
+            <div id="navLanguage">
+                <span class="navLangItem">Español</span>
+                <span class="navLangItem">$ARG</span>
+            </div>
+        </div>
+        <nav id="navHeader">
+            <img id="navLogo" src="./img/Logo.png" alt="">
+            <div id="navBar">
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Contactanos</a>
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Categorias</a>
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Pets</a>
+                <a href="" class="navItems"><i class="fas fa-paw"></i>Nosotros</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="bannerButtons">
+                <div class="esPlacer">
+                    <span>¡Es un placer tenerte aquí!</span>
+                </div>
+                <p id="comederoDescuento">¡Comederos en descuento!</p>
+                <button id="comederos" onclick="">COMEDEROS</button>
+            </div>
+        </section>
+        
+        <section class="destacados">
+            <article id="destacadosHeader">
+                <img id="pawPrint" src="./img/pawprint 2.png" alt="">
+                <h1>Productos Destacados</h1>
+                <nav id="navDestacados">
+                    <a class="buttonProducts">Comederos</a>
+                    <span>-</span>
+                    <a class="buttonProducts">Accesorios</a>
+                    <span>-</span>
+                    <a class="buttonProducts">Comida</a>
+                </nav>  
+            </article>
+
+            <article id="products">
+                <div class="product">
+                    <img src="./img/churrasquito.png" alt="churrasquito">
+                    <p id="productDescription">Juguete Churrasquito</p>
+                    <p id="productPrize">$150</p>
+                </div>
+                <div class="product">
+                    <img src="./img/comedero.png" alt="churrasquito">
+                    <p id="productDescription">Comedor para Perro</p>
+                    <p id="productPrize">$250</p>
+                </div>
+                <div class="product">
+                    <img src="./img/Huesito.png" alt="churrasquito">
+                    <p id="productDescription">Juguete Huesito</p>
+                    <p id="productPrize">$650</p>
+                </div>
+            </article>
+        </section>
+        <section id="contactUs">
+            <h2 id="contactH2">Contáctanos</h2>
+            <form id="contactForm" action="">
+                <input type="text" name="nombre" class="contactFormInput" placeholder="Nombre y Apellido"><br>
+                <input type="text" name="nombre" class="contactFormInput" placeholder="Ingresá tu correo Electrónico"><br>
+                <input type="text" name="nombre" class="contactFormInput" placeholder="Teléfono"><br>
+                <div id="contactFormButtons">
+                    <button id="reset" type="reset">Resetar</button>
+                    <button id="submit" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="upperFooter">
+            <img src="./img/enviar-correo 1.png" alt="">
+            <span style="color: #FFF;">Suscribirse para mas novedades</span>
+        </section>
+        <section class="midFooter">
+            <article class="midFooterArticle">
+                <div class="iconFooter">
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                </div>
+                <div class="midFooterArticleText">
+                    <h4>Localidad</h4>
+                    <p class="midFooterP">Calle - Provincia</p>
+                </div>
+            </article>
+            <article class="midFooterArticle">
+                <div class="iconFooter">
+                    <i class="fas fa-phone-alt fa-2x"></i>
+                </div>
+                <div class="midFooterArticleText">
+                    <h4>Teléfono</h4>
+                    <p class="midFooterP">Número de Teléfono</p>
+                </div>
+                <img id="logoFooter" src="./img/Logo.png" alt="">
+            </article>
+            <article class="midFooterArticle">
+                <div class="iconFooter">
+                    <i class="fas fa-at fa-2x"></i>
+                </div>
+                <div class="midFooterArticleText">
+                    <h4>Correo Electrónico</h4>
+                    <p class="midFooterP">Dirección de correo</p>
+                </div>
+            </article>
+        </section>
+        <section class="bottomFooter">
+            <p id="rights">Todos los derechos reservados Front End</p>
+        </section>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/681ec50ecf.js" crossorigin="anonymous"></script>
+</body>
+</html>
