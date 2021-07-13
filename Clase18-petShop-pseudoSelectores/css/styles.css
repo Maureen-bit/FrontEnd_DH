@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos header */
+.header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+/* Estilos aside - header superior */
+.header > aside {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 90px;
+    background-color: black;
+
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.header > aside > div {
+    display: flex;
+    gap: 12px;
+}
+
+.header > aside > div > select {
+    border: none;
+    background-color: black;
+
+    color: white;
+}
+
+
+/* Estilos header inferior o principal */
+.header-principal {
+    width: 100%;
+    height: 62px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 40px;
+}
+
+.header-principal > img {
+    width: 167px;
+    height: 23px;
+}
+
+.header-principal > nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header-principal > nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos seccion principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-principal {
+    width: 100%;
+    height: 409px;
+    background-image: url(../img/banner_background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 12px;
+}
+
+.section-principal > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.section-principal > div > h2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+    font-size: 30px;
+}
+
+.section-principal > div > p{
+    color: #3C2313;
+    font-size: 16px;
+}
+
+.section-principal > div > button{
+    width: 141px;
+    height: 49px;
+    color: white;
+    background-color: #F0A83E;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Estilos seccion productos */
+
+.section-products {
+    width: 100%;
+    margin-bottom: 78px;
+}
+
+.header-products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.header-products > h2 {
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header-products > p {
+    color: #666;
+    font-size: 15px;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.card-product {
+    background-color: #FBFAF6;
+    text-align: center;
+    padding: 8px;
+}
+
+.card-product > h4 {
+    font-size: 15px;
+    color: #3C2313;
+
+}
+
+.card-product > span {
+    font-size: 15px;
+    color: #F0A83E;
+}
+
+/* Estilos formulario de contactanos */
+.section-contact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 82px;
+}
+
+.section-contact > form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.section-contact > form > h3{
+    font-size: 25px;
+    color: #3C2313;
+}
+
+.section-contact > form > input{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #3C2313;
+    padding: 15px;
+}
+
+.section-contact > form > input::placeholder{
+    color: white;
+    font-size: 9px;
+}
+
+
+.section-contact > form > div > button{
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn-reset {
+    background-color: #8A8787;
+}
+
+.btn-send {
+    background-color: #F0A83E;
+}
+
+/* Estilos para seccion de suscripcion */
+.subscription {
+    width: 100%;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.subscription > h3{
+    flex-grow: 1;
+    color: white;
+    font-size: 20px;
+}
+
+.subscription > form > input {
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    padding: 15px 8px;
+    font-size: 9px;
+}
+
+.subscription > form > button {
+    width: 70px;
+    height: 34px;
+    font-size: 9px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: #3C2313;
+}
+
+.footer-contact {
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 70px;
+}
+
+.footer-contact > div >.card-info {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 24px;
+}
+
+.footer-contact > div >.card-info > div > h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-contact > div >.card-info > div > p {
+    color: #8A8787;
+    font-size: 10px;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 4px;
+}
+
+/* Estilos pseudoselectores */
+
+.card-product:hover {
+    transform: scale(1.2);
+}
+
+.header-principal > nav > ul > li::before {
+    content: url('../img/icon-huella.png');
+    padding-right: 5px;
+}
+
+.section-principal > div > button:hover {
+    background-color: rgb(95, 72, 29);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type='text'] {
+    outline: none;
+    color: white;
+}
+
+input[type='text']:focus {
+    background-color: #F0A83E;
+    color: #3C2313;
+}
+
+.btn-send:hover, .btn-reset:hover, .subscription > form > button:hover {
+    transform: scale(1.5); 
+}
