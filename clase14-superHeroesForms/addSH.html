@@ -2,26 +2,27 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
         <title>Añadir Súper Heroe</title>
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <header>
         <div class="nav" >
-            <p class="navOne"> <strong> 20% de descuento en todos los productos!</strong></p>
+            <div class="navOneParent">
+                <p class="navOne"> <strong> 20% de descuento en todos los productos!</strong></p>
+                <a href="index.html" >Inicio</a>
+            </div>
+
             <div class="navTwoParent">
-                <i class="fas fa-home"></i>
                 <img src="./images/logoTienda.png" alt="Logo tienda">
                 <H1 class="navTwo">Tienda Maureen</H1>
+                <i class="fas fa-home"></i>
             </div>
-            <ul type="none">
-                <li> <a href="./register.html">Registrarme</a> </li>
-                <li> <a href="./login.html">Ingresar</a> </li>
-            </ul>
         </div>
     </header>
     <body>
         <main>
-            <section>
+            <section class="sectionAdd">
                 <div class="container">
                 <h1 class="titlesAdd">Añadí tu super!</h1>
                 <h2 class="titlesAdd subtitleAdd">Agregá tu personaje favorito completando las opciones.</h2>
@@ -37,9 +38,9 @@
                         <div class="columns">
                             <label for="name">*Especie</label>
                             <select class="inputsAdd" placeholder="País" required>
-                                <option value="co">Colombia</option>
-                                <option value="ar">Argentina</option>
-                                <option value="es">Español</option>
+                                <option value="co">Especie con poderes buenos</option>
+                                <option value="ar">Especie con poderes malos</option>
+                                <option value="es">Especie con poderes neutros</option>
                             </select>
                             <label for="file">Agregar Foto</label>
                             <input class="inputsAdd fileInput" type="file" name="file" id="file" placeholder="Seleccionar foto">
@@ -47,7 +48,7 @@
                                 <legend>Poderes</legend>
                                 <label for="fly">Volar</label>
                                 <input class="inputOption"  type="checkbox" name="fly" id="fly">
-                                
+
                                 <label for="superintelligence">superinteligencia</label>
                                 <input class="inputOption" type="checkbox" name="superintelligence" id="superintelligence">
 
@@ -72,9 +73,10 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <span>Todos los derechos reservados a Maureen Parra</span>
+            <span> <a href="./contact.html">Contáctanos</a> </span>
+        </footer>
     </body>
-    <footer>
-        <span>Todos los derechos reservados a FRONT END 1</span>
-        <span> <a href="./contact.html">Contáctanos</a> </span>
-    </footer>
+
 </html>
